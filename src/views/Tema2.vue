@@ -433,7 +433,7 @@
 
             TarjetaAudio.color-acento-contenido.mb-3.bg-9.p-3(
               texto="Seguimiento de Buenas Prácticas Ganaderas (BPG) en la producción de leche bovina "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/audio1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
