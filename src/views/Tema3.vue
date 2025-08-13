@@ -442,7 +442,7 @@
 
             .row
               .col-lg-11
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(:href="obtenerLink('downloads/Anexo1_ListaDeVerificacionDeBuenasPracticasGanaderas.xls')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-xls.svg")
                   .anexo__texto
@@ -466,7 +466,7 @@
 
             .row
               .col-lg-11
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_2_CriteriosDeCumplimiento.xls')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-xls.svg")
                   .anexo__texto
