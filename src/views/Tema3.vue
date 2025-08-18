@@ -50,13 +50,13 @@
             figure
               img(src="@/assets/curso/tema3/img3.png", alt="", style="width: 95px").m-auto
           .col-lg-10
-            p A partir del análisis, se toman decisiones correctivas o preventivas, permitiendo a los productores ajustar sus procesos, garantizar el cumplimiento legal y avanzar hacia la certificación oficial en BPG. Para ello, se utilizan herramientas como listas de verificación, revisión de registros, observaciones de campo y entrevistas técnicas. La evaluación considera aspectos críticos de la producción lechera y emite un concepto final sustentado en evidencias normativas y técnicas.
+            p A partir del análisis, se toman decisiones correctivas o preventivas, permitiendo a los productores #[b ajustar sus procesos], garantizar el cumplimiento legal y avanzar hacia la #[b certificación oficial en BPG]. Para ello, se utilizan herramientas como listas de verificación, revisión de registros, observaciones de campo y entrevistas técnicas. La evaluación considera aspectos críticos de la producción lechera y emite un concepto final sustentado en #[b evidencias normativas y técnicas].
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Objetivo de la evaluación
 
-    p El objetivo principal de la evaluación BPG es asegurar que la producción de leche se realice bajo condiciones higiénicas, seguras, sostenibles y trazables, promoviendo:
+    p El objetivo principal de la evaluación BPG es asegurar que la producción de leche se realice bajo #[b condiciones higiénicas, seguras, sostenibles y trazables], promoviendo:
 
     .row.align-items-center.mt-5.justify-content-center     
       .col-lg-4
@@ -141,7 +141,7 @@
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-md-7.mb-4.mb-md-0.mt-lg-0.mt-4
                     p
-                      b Según quién evalúa	
+                      b Según quien evalúa	
 
                     p #[b Autoevaluación:] realizada por el propio equipo como ejercicio de aprendizaje y mejora interna. #[b Evaluación participativa:] involucra activamente al equipo de implementación. #[b Evaluación participativa rápida:] recopila percepciones cualitativas en corto tiempo. #[b Evaluación externa:] efectuada por personas o entidades independientes. #[b Evaluación interactiva:] combina participación activa del evaluador externo y los actores del plan.
 
@@ -403,7 +403,7 @@
 
     .titulo-tres.mt-5: h3 Aplicación de herramientas visuales en auditorías BPG
 
-    p.mt-4 Durante la auditoría o visita de seguimiento, el uso de diagramas de procesos y representaciones visuales puede ser una herramienta útil para:
+    p.mt-4 Durante la auditoría o visita de seguimiento, el uso de #[b diagramas de procesos] y representaciones visuales puede ser una herramienta útil para:
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-down")
@@ -422,7 +422,7 @@
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0 Apoyar la revisión documental mediante esquemas que respalden la existencia y aplicación de procedimientos estandarizados.
+                  p.mb-0 Apoyar la revisión documental mediante esquemas que respalden la existencia y aplicación de #[b procedimientos estandarizados].
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
@@ -430,7 +430,7 @@
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0 Verificar la coherencia entre lo observado en campo, lo registrado documentalmente y lo expresado por el personal entrevistado.
+                  p.mb-0 Verificar la #[b coherencia entre lo observado en campo, lo registrado documentalmente y lo expresado por el personal] entrevistado.
 
     p.mt-4 Estas herramientas refuerzan la transparencia, comprensión y verificabilidad de los procesos implementados en el predio lechero.
 
@@ -440,13 +440,18 @@
 
             p Se invita a leer el documento “Lista de verificación de Buenas Prácticas Ganaderas (BPG)”, donde se aborda la evaluación de distintos requisitos sanitarios, productivos y de manejo en unidades ganaderas, especialmente orientados al cumplimiento de estándares en sanidad animal, higiene, bioseguridad, uso de medicamentos, alimentación, bienestar y condiciones del personal.
 
+
             .row
               .col-lg-11
-                a.anexo.mb-4(:href="obtenerLink('downloads/Anexo1_ListaDeVerificacionDeBuenasPracticasGanaderas.xls')" target="_blank")
+                a.anexo.mb-4(
+                  :href="obtenerLink('/downloads/Anexo1_ListaDeVerificacionDeBuenasPracticasGanaderas.xlsx')" 
+                  download
+                )
                   .anexo__icono
                     img(src="@/assets/template/icono-xls.svg")
                   .anexo__texto
-                    p #[b Anexo.] Anexo_Lista de verificación de Buenas Prácticas Ganaderas (BPG)
+                    p #[b Anexo.] Lista de verificación de Buenas Prácticas Ganaderas (BPG)
+
 
 
 
@@ -466,7 +471,7 @@
 
             .row
               .col-lg-11
-                a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_2_CriteriosDeCumplimiento.xls')" target="_blank")
+                a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_2_CriteriosDeCumplimiento.xlsx')" download)
                   .anexo__icono
                     img(src="@/assets/template/icono-xls.svg")
                   .anexo__texto
@@ -475,7 +480,7 @@
 
     .titulo-tres.mt-5: h3 Base legal, instrumentos y criterios de evaluación BPG en producción de leche bovina
 
-    p.mt-4 La certificación en Buenas Prácticas Ganaderas (BPG) para producción primaria de leche bovina en Colombia está sustentada en un marco legal que establece los requisitos, procedimientos y criterios técnicos para garantizar la inocuidad, trazabilidad y sostenibilidad en los sistemas productivos.
+    p.mt-4 La certificación en #[b Buenas Prácticas Ganaderas (BPG)] para producción primaria de leche bovina en Colombia está sustentada en un marco legal que establece los requisitos, procedimientos y criterios técnicos para garantizar la #[b inocuidad, trazabilidad y sostenibilidad] en los sistemas productivos.
 
     .row.mt-4.justify-content-center
       .col-lg-10
@@ -521,7 +526,7 @@
         .p-5 
           .titulo-tres.mt-5: h3 Instrumentos oficiales de evaluación
 
-          p.mt-4  El Formulario ICA 3-852 v6 es la herramienta oficial empleada por el ICA durante auditorías de certificación. Evalúa más de 90 ítems distribuidos en ocho módulos temáticos.
+          p.mt-4  El #[b Formulario ICA 3-852 v6] es la herramienta oficial empleada por el ICA durante auditorías de certificación. Evalúa más de 90 ítems distribuidos en ocho módulos temáticos.
 
           .carousel-bg
             .row.justify-content-center.align-items-center.mb-5
@@ -737,26 +742,26 @@
 
           .col-lg.d-flex
             .p-4.w-100.align-items-center
-              p La evaluación de Buenas Prácticas Ganaderas en predios lecheros es un proceso técnico, riguroso y obligatorio que garantiza el cumplimiento de estándares de inocuidad, trazabilidad, sostenibilidad y sanidad animal. Sus beneficios incluyen:
+              p La evaluación de Buenas Prácticas Ganaderas en predios lecheros es un proceso #[b técnico, riguroso y obligatorio] que garantiza el cumplimiento de estándares de #[b inocuidad, trazabilidad, sostenibilidad y sanidad animal]. Sus beneficios incluyen:
 
               ul.lista-ul--color.mt-2
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0  Acceso a la certificación oficial del ICA.
+                  p.mb-0  Acceso a la #[b certificación oficial del ICA].
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0 Cumplimiento de requisitos frente a autoridades nacionales e internacionales.
+                  p.mb-0 Cumplimiento de requisitos frente a autoridades #[b nacionales e internacionales].
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0 Posibilidad de ingresar a mercados diferenciados o de exportación.
+                  p.mb-0 Posibilidad de ingresar a #[b mercados diferenciados o de exportación].
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0 Fortalecimiento de la calidad, gestión y mejora continua en la producción lechera.
+                  p.mb-0 Fortalecimiento de la #[b calidad, gestión y mejora continua] en la producción lechera.
 
-    .titulo-tres.mt-5: h3 Técnica de clasificación de lista 
+    .titulo-tres.mt-5: h3 Indicadores de gestión 
 
     p.mt-4 Los indicadores de gestión son expresiones cuantitativas del comportamiento y desempeño de un proceso. Su magnitud, al compararse con un nivel de referencia, puede señalar desviaciones que ameriten acciones correctivas o preventivas (Da Silva, 2021). En otras palabras, un indicador de gestión es un valor medible que permite evidenciar el nivel de logro de los objetivos clave propuestos.
 

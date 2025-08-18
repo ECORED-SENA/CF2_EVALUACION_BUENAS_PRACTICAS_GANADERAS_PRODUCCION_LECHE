@@ -19,7 +19,7 @@
                 .col-lg-10
                   p La trazabilidad en la producción de leche es la #[b capacidad de identificar, registrar, seguir y verificar] toda la información relacionada con la leche cruda, desde el animal en la unidad productiva hasta su llegada al consumidor final. Implica conocer con precisión #[b cuándo, dónde y por quién] fue producida la leche, así como los insumos, procesos y condiciones involucradas en su obtención.
 
-              p.mt-3.p-4.bg-5.r8 Este seguimiento continuo permite garantizar la seguridad alimentaria, la inocuidad del producto, el bienestar animal y el cumplimiento de la normatividad vigente. Debido al creciente interés por productos lácteos seguros y de alta calidad, la trazabilidad se ha convertido en un componente esencial dentro de las Buenas Prácticas Ganaderas (BPG).
+              p.mt-3.p-4.bg-5.r8 Este seguimiento continuo permite garantizar la #[b seguridad alimentaria], la #[b inocuidad del producto], el #[b bienestar animal] y el #[b cumplimiento de la normatividad vigente]. Debido al creciente interés por productos lácteos seguros y de alta calidad, la trazabilidad se ha convertido en un componente esencial dentro de las #[b Buenas Prácticas Ganaderas (BPG)].
 
             .col-lg-4.d-lg-block.d-none
               figure
@@ -81,7 +81,7 @@
                     p
                       b Cumplimiento normativo
 
-                    p Requisito para certificaciones BPG y exportaciones. Respaldo normativo: resoluciones del ICA, Invima y normas internacionales como Codex Alimentarius e ISO.
+                    p Requisito para certificaciones BPG y exportaciones. Respaldo normativo: resoluciones del ICA, Invima y normas internacionales como #[i Codex Alimentarius] e ISO.
 
                   .col-md-5
                     figure
@@ -167,7 +167,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img12.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La trazabilidad puede clasificarse según su nivel de alcance en la cadena de producción y comercialización. Existen dos formas principales de trazabilidad: interna y de cadena (externa). Ambas son complementarias y necesarias para garantizar el control total del producto desde su origen hasta el consumidor final.
+        p.mb-0 La trazabilidad puede clasificarse según su nivel de alcance en la cadena de producción y comercialización. Existen dos formas principales de trazabilidad: #[b interna y de cadena (externa)]. Ambas son complementarias y necesarias para garantizar el control total del producto desde su origen hasta el consumidor final.
 
 
     .titulo-tres.mt-5: h3 Trazabilidad de cadena (externa)
@@ -318,16 +318,16 @@
       
                 .col-lg.d-flex
                   .p-4.w-100.align-items-center
-                    p En el contexto de la producción primaria, coexisten diversas herramientas que refuerzan la trazabilidad, entre ellas:
+                    p En el contexto de la #[b producción primaria], coexisten diversas herramientas que refuerzan la trazabilidad, entre ellas:
 
                     ul.lista-ul--color.mt-2
                       li.d-flex.align-items-start.p-1
                         span.icono-img
-                        p.mb-0 El registro e identificación de los semovientes, ya sea individual o por lotes, según la especie.
+                        p.mb-0 El #[b registro e identificación] de los semovientes, ya sea individual o por lotes, según la especie.
 
                       li.d-flex.align-items-start.p-1
                         span.icono-img
-                        p.mb-0 La inscripción del predio productivo. El registro y seguimiento del transporte mediante guías de movilización, que permiten rastrear a los animales desde su nacimiento hasta el final de su vida productiva.
+                        p.mb-0 La #[b inscripción del predio] productivo. El #[b registro y seguimiento del transporte] mediante #[b guías de movilización], que permiten rastrear a los animales desde su nacimiento hasta el final de su vida productiva.
 
 
               p.mt-4 Además, productos de origen animal como la leche y sus derivados cuentan con elementos específicos que aseguran la trazabilidad desde la granja hasta las plantas de transformación. Entre estos, destacan #[b bases de datos] que promueven la calidad e inocuidad, facilitando la trazabilidad y el control de los procesos involucrados.
@@ -500,7 +500,7 @@
                         span.icono-img
                         p.mb-0 Rastreo del producto: transporte, destino de la leche y condiciones de traslado.
 
-              p.mt-4 Durante las auditorías, los verificadores del ICA revisan estos componentes para determinar el grado de cumplimiento del predio frente a los requisitos establecidos en el Formulario 3-852 v6, instrumento oficial de evaluación.
+              p.mt-4 Durante las auditorías, los verificadores del #[b ICA] revisan estos componentes para determinar el grado de cumplimiento del predio frente a los requisitos establecidos en el #[b Formulario 3-852 v6], instrumento oficial de evaluación.
 
 
     .row.bg-16
@@ -628,7 +628,7 @@
     #t_1_9.titulo-segundo.color-acento-contenido
       h2 1.9  Evaluación, normativa y recomendaciones
 
-    p El proceso de certificación BPG incluye una serie de verificaciones técnicas por parte del ICA, entre las cuales se destacan:
+    p El proceso de certificación BPG incluye una serie de #[b verificaciones técnicas por parte del ICA], entre las cuales se destacan:
 
     .row.align-items-center.mt-5
       .col-lg-5.d-lg-block.d-none
@@ -704,7 +704,7 @@
           img(src='@/assets/curso/tema1/img45.png', alt='', style="width: 505px").m-auto
 
 
-    p.mt-4 En Colombia, las principales normas relacionadas con la trazabilidad en predios lecheros son:
+    p.mt-4 En Colombia, las principales #[b normas relacionadas con la trazabilidad en predios lecheros] son:
 
     .row.align-items-center
       .col-lg-6

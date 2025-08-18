@@ -7,7 +7,7 @@
         span 4
       h1 Estrategias y acciones correctivas en la lechería
 
-    p En la evaluación de Buenas Prácticas Ganaderas (BPG) para producción de leche bovina Las estrategias correctivas en la lechería son acciones planificadas, sistemáticas y evaluables que se implementan ante la detección de no conformidades en procesos, instalaciones o procedimientos durante la evaluación de BPG en predios productores de leche bovina, según la Resolución ICA 067449 de 2020. Estas acciones tienen como objetivos:
+    p En la evaluación de Buenas Prácticas Ganaderas (BPG) para producción de leche bovina, las estrategias correctivas en la lechería son acciones planificadas, sistemáticas y evaluables que se implementan ante la detección de no conformidades en procesos, instalaciones o procedimientos durante la evaluación de BPG en predios productores de leche bovina, según la Resolución ICA 067449 de 2020. Estas acciones tienen como objetivos:
 
     .row.justify-content-center.mt-4
       .col-lg-10(data-aos="fade-down")

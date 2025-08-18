@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Gestión y evaluación en ganadería de leche',
     Description:
-      'La capacitación tiene como objetivo fortalecer las competencias para supervisar la implementación de BPG en sistemas de producción de bovinos de leche, asegurando el cumplimiento de la normativa vigente y promoviendo la sostenibilidad productiva. Se enfoca en la evaluación y monitoreo continuo de procesos clave como manejo animal, sanidad, alimentación, bienestar y gestión ambiental, con el fin de garantizar prácticas responsables, eficientes y trazables en toda la cadena productiva',
+      'La capacitación tiene como objetivo fortalecer las competencias para supervisar la implementación de BPG en sistemas de producción de bovinos de leche, asegurando el cumplimiento de la normativa vigente y promoviendo la sostenibilidad productiva. Se enfoca en la evaluación y monitoreo continuo de procesos clave como manejo animal, sanidad, alimentación, bienestar y gestión ambiental, con el fin de garantizar prácticas responsables, eficientes y trazables en toda la cadena productiva.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -242,7 +242,7 @@ export default {
       tema:
         'Evaluación de Buenas Prácticas Ganaderas (BPG) en producción de leche bovina',
       referencia: 'Mideplan Costa Rica. (2015). Seguimiento y Evaluación.',
-      tipo: 'Video',
+      tipo: 'Página web',
       link: 'https://www.mideplan.go.cr/evaluci%C3%B3n-seguimiento',
     },
     {
@@ -376,7 +376,7 @@ export default {
       referencia:
         'López, M. (2014). Elaboración del sistema de trazabilidad en la planta de producción de la empresa El Horno de Mikaela. Corporación Universitaria Lasallista.',
       link:
-        'http://repository.unilasallista.edu.co/dspace/bitstream/10567/1142/1/Elaboracion_sistema_trazabilidad_planta_producci%c3%b3n_El_Horno_de_Mikaela.pdf',
+        'https://repository.unilasallista.edu.co/items/2aad44d5-f684-48ad-97df-394c1a025735',
     },
     {
       referencia:

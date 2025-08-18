@@ -84,7 +84,7 @@
           #t_2_2.titulo-segundo.color-acento-contenido
             h2 2.2 Capacitación del personal
 
-          p La formación continua es un eje central en el sistema BPG. Permite asegurar que todo el equipo esté preparado para aplicar correctamente los procedimientos y cumplir con las normativas vigentes (Resoluciones ICA 067449 de 2020 y 000017 de 2023).
+          p La #[b formación continua] es un eje central en el sistema BPG. Permite asegurar que todo el equipo esté preparado para aplicar correctamente los procedimientos y cumplir con las normativas vigentes (Resoluciones ICA 067449 de 2020 y 000017 de 2023).
 
           .carousel-bg
             .row.justify-content-center.align-items-center.mb-5
