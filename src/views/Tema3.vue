@@ -1024,66 +1024,88 @@
             tbody
               tr(style="background-color: #F6F6F6")
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon1.svg", alt="", style="width: 20px").m-auto
                 td.text-center Terminal
 
                 td.text-start Inicio o fin del proceso (ej. Inicio del ordeño).
 
               tr
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon2.svg", alt="", style="width: 20px").m-auto
                 td.text-center Decisión
 
                 td.text-start Punto que determina el flujo según respuesta (ej. ¿El tanque está limpio?).
 
               tr(style="background-color: #F6F6F6")
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon3.svg", alt="", style="width: 20px").m-auto
                 td.text-center Actividad
 
                 td.text-start Describe acciones concretas con verbos activos (ej. Realizar pre-sellado).
 
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon4.svg", alt="", style="width: 20px").m-auto
                 td.text-center Dirección de flujo
 
                 td.text-start Muestra la secuencia entre actividades.
 
-              tr
+              tr(style="background-color: #F6F6F6")
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon5.svg", alt="", style="width: 20px").m-auto
                 td.text-center Conector
 
                 td.text-start Une símbolos en el mismo diagrama (cuando hay poco espacio).
 
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon6.svg", alt="", style="width: 20px").m-auto
                 td.text-center Movimiento
 
                 td.text-start Traslado físico de productos o insumos (ej. Transportar leche al tanque).
 
               tr(style="background-color: #F6F6F6")
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon7.svg", alt="", style="width: 20px").m-auto
                 td.text-center Documentación
 
                 td.text-start Representa documentos o registros (ej. Formato de temperatura).
 
               tr
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon8.svg", alt="", style="width: 20px").m-auto
                 td.text-center Retardo
 
                 td.text-start Indica pausa por logística (ej. Espera por análisis).
 
               tr(style="background-color: #F6F6F6")
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon9.svg", alt="", style="width: 20px").m-auto
                 td.text-center Almacenaje/guardado
 
                 td.text-start Señala almacenamiento de leche, insumos, registros, etc.
 
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon10.svg", alt="", style="width: 20px").m-auto
                 td.text-center Anotación
 
                 td.text-start Aclara actividades sin alterar el flujo (ej. Usar guantes esterilizados).
 
-              tr
+              tr(style="background-color: #F6F6F6")
                 td.text-start 
+                  figure
+                    img(src="@/assets/curso/tema3/icon11.svg", alt="", style="width: 20px").m-auto
                 td.text-center Salto de página
                 td.text-start Conexión entre hojas cuando el diagrama es extenso.
 
