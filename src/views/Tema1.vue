@@ -29,7 +29,7 @@
 
           .row.mt-4.justify-content-center.align-items-stretch
             .col-lg-5
-              .row.p-4.bg-6.r8.h-100.g-3
+              .row.p-4.bg-6.r8.h-100.g-2.shadow-card
                 figure
                   img(src="@/assets/curso/tema1/img3.svg", alt="", style="width: 83px")
                 p.mt-4
@@ -37,7 +37,7 @@
                 p Corresponde al seguimiento de la leche y sus procesos dentro del predio lechero: ordeño, almacenamiento, manejo sanitario, entre otros.
 
             .col-lg-5
-              .row.p-4.bg-6.r8.h-100.g-3
+              .row.p-4.bg-6.r8.h-100.g-2.shadow-card
                 figure
                   img(src="@/assets/curso/tema1/img4.svg", alt="", style="width: 83px")
                 p.mt-4
@@ -181,7 +181,7 @@
             .row.d-flex.align-items-stretch.bg-10.gx-3
               .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema1/img13.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
+                  img(src='@/assets/curso/tema1/img13.svg', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
     
               .col-lg.d-flex
                 .p-4.w-100.d-flex.align-items-center
@@ -193,7 +193,7 @@
             .row.d-flex.align-items-stretch.bg-10.gx-3
               .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema1/img14.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
+                  img(src='@/assets/curso/tema1/img14.svg', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
     
               .col-lg.d-flex
                 .p-4.w-100.d-flex.align-items-center
@@ -227,19 +227,19 @@
           .col-lg-12
 
             ul.lista-ul--color.mt-2.p-4
-              li.d-flex.align-items-start.p-1.bg-12.r8
+              li.d-flex.align-items-start.p-1.bg-12.r8(style="min-height:60px;")
                 span.icono-img
-                p.mb-0 Registro de procesos como #[b ordeño, almacenamiento, tratamiento y manejo sanitario].
-
-
-              li.d-flex.align-items-start.p-1.bg-12.r8
-                span.icono-img
-                p.mb-0 Control detallado por #[b lotes o animales individuales] mediante sistemas de identificación específicos.
+                p.mb-0.m-l10 Registro de procesos como #[b ordeño, almacenamiento, tratamiento y manejo sanitario].
 
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Aplicación de protocolos que garantizan la inocuidad y calidad dentro del predio, antes de la salida del producto al siguiente eslabón de la cadena.
+                p.mb-0.m-l10 Control detallado por #[b lotes o animales individuales] mediante sistemas de identificación específicos.
+
+
+              li.d-flex.align-items-start.p-1.bg-12.r8
+                span.icono-img
+                p.mb-0.m-l10 Aplicación de protocolos que garantizan la inocuidad y calidad dentro del predio, antes de la salida del producto al siguiente eslabón de la cadena.
 
 
     .row.justify-content-center.mt-4
@@ -284,7 +284,7 @@
                   .row.d-flex.align-items-stretch.bg-5.gx-3
                     .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                       figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                        img(src='@/assets/curso/tema1/img19.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
+                        img(src='@/assets/curso/tema1/img19.svg', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
           
                     .col-lg.d-flex
                       .p-4.w-100.align-items-center
@@ -297,7 +297,7 @@
                   .row.d-flex.align-items-stretch.bg-5.gx-3
                     .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                       figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                        img(src='@/assets/curso/tema1/img20.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
+                        img(src='@/assets/curso/tema1/img20.svg', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
           
                     .col-lg.d-flex
                       .p-4.w-100.align-items-center
@@ -323,11 +323,11 @@
                     ul.lista-ul--color.mt-2
                       li.d-flex.align-items-start.p-1
                         span.icono-img
-                        p.mb-0 El #[b registro e identificación] de los semovientes, ya sea individual o por lotes, según la especie.
+                        p.mb-0.m-l10 El #[b registro e identificación] de los semovientes, ya sea individual o por lotes, según la especie.
 
                       li.d-flex.align-items-start.p-1
                         span.icono-img
-                        p.mb-0 La #[b inscripción del predio] productivo. El #[b registro y seguimiento del transporte] mediante #[b guías de movilización], que permiten rastrear a los animales desde su nacimiento hasta el final de su vida productiva.
+                        p.mb-0.m-l10 La #[b inscripción del predio] productivo. El #[b registro y seguimiento del transporte] mediante #[b guías de movilización], que permiten rastrear a los animales desde su nacimiento hasta el final de su vida productiva.
 
 
               p.mt-4 Además, productos de origen animal como la leche y sus derivados cuentan con elementos específicos que aseguran la trazabilidad desde la granja hasta las plantas de transformación. Entre estos, destacan #[b bases de datos] que promueven la calidad e inocuidad, facilitando la trazabilidad y el control de los procesos involucrados.
@@ -480,25 +480,25 @@
                     ul.lista-ul--color.mt-2
                       li.d-flex.align-items-start.p-1
                         span.icono-img
-                        p.mb-0 Identificación animal sin duplicados, ya sea individual o por lotes.
+                        p.mb-0.m-l10 Identificación animal sin duplicados, ya sea individual o por lotes.
 
                       li.d-flex.align-items-start.p-1
                         span.icono-img
-                        p.mb-0 Historia clínica veterinaria completa, incluyendo vacunación, tratamientos, enfermedades y tiempos de retiro.
+                        p.mb-0.m-l10 Historia clínica veterinaria completa, incluyendo vacunación, tratamientos, enfermedades y tiempos de retiro.
 
                       li.d-flex.align-items-start.p-1
                         span.icono-img
-                        p.mb-0 Documentación del proceso de ordeño: higiene del personal, limpieza de equipos y rutina aplicada.
-
-
-                      li.d-flex.align-items-start.p-1
-                        span.icono-img
-                        p.mb-0 Registros de calidad de la leche: temperatura de almacenamiento, análisis físico-químicos y microbiológicos.
+                        p.mb-0.m-l10 Documentación del proceso de ordeño: higiene del personal, limpieza de equipos y rutina aplicada.
 
 
                       li.d-flex.align-items-start.p-1
                         span.icono-img
-                        p.mb-0 Rastreo del producto: transporte, destino de la leche y condiciones de traslado.
+                        p.mb-0.m-l10 Registros de calidad de la leche: temperatura de almacenamiento, análisis físico-químicos y microbiológicos.
+
+
+                      li.d-flex.align-items-start.p-1
+                        span.icono-img
+                        p.mb-0.m-l10 Rastreo del producto: transporte, destino de la leche y condiciones de traslado.
 
               p.mt-4 Durante las auditorías, los verificadores del #[b ICA] revisan estos componentes para determinar el grado de cumplimiento del predio frente a los requisitos establecidos en el #[b Formulario 3-852 v6], instrumento oficial de evaluación.
 
@@ -642,31 +642,31 @@
             ul.lista-ul--color.mt-2.p-4
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Identificación animal sin duplicaciones.
+                p.mb-0.m-l10 Identificación animal sin duplicaciones.
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Historia clínica individual actualizada.
-
-
-              li.d-flex.align-items-start.p-1.bg-12.r8
-                span.icono-img
-                p.mb-0 Registro y uso adecuado de medicamentos, incluyendo tiempos de retiro.
+                p.mb-0.m-l10 Historia clínica individual actualizada.
 
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Condiciones de higiene del ordeño y del personal.
+                p.mb-0.m-l10 Registro y uso adecuado de medicamentos, incluyendo tiempos de retiro.
 
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Manejo de residuos peligrosos.
+                p.mb-0.m-l10 Condiciones de higiene del ordeño y del personal.
 
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Control del ingreso y salida de productos.
+                p.mb-0.m-l10 Manejo de residuos peligrosos.
+
+
+              li.d-flex.align-items-start.p-1.bg-12.r8
+                span.icono-img
+                p.mb-0.m-l10 Control del ingreso y salida de productos.
 
     p.mt-4 Para asegurar el cumplimiento de estos criterios, se recomienda:
 
@@ -680,23 +680,23 @@
             ul.lista-ul--color.mt-2.p-4
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Asignar un responsable técnico del sistema de registros.
+                p.mb-0.m-l10 Asignar un responsable técnico del sistema de registros.
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Capacitar al personal en el diligenciamiento y manejo de tiempos de retiro.
+                p.mb-0.m-l10 Capacitar al personal en el diligenciamiento y manejo de tiempos de retiro.
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Utilizar herramientas digitales y plataformas móviles.
+                p.mb-0.m-l10 Utilizar herramientas digitales y plataformas móviles.
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Realizar revisiones periódicas de los registros.
+                p.mb-0.m-l10 Realizar revisiones periódicas de los registros.
 
               li.d-flex.align-items-start.p-1.bg-12.r8
                 span.icono-img
-                p.mb-0 Establecer protocolos internos de trazabilidad clara, tanto interna como externa.
+                p.mb-0.m-l10 Establecer protocolos internos de trazabilidad clara, tanto interna como externa.
 
 
       .col-lg-5.d-lg-block.d-none
@@ -787,15 +787,15 @@
               ul.lista-ul--color.mt-2
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0 Aumenta la #[b competitividad del sector ganadero].
+                  p.mb-0.m-l10 Aumenta la #[b competitividad del sector ganadero].
 
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0 Fortalece la #[b confianza del consumidor] y de los mercados internacionales.
+                  p.mb-0.m-l10 Fortalece la #[b confianza del consumidor] y de los mercados internacionales.
 
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0 Mejora la #[b productividad y sostenibilidad] del sistema lechero.
+                  p.mb-0.m-l10 Mejora la #[b productividad y sostenibilidad] del sistema lechero.
 
               p.p-4.bg-19.r8 En este sentido, la trazabilidad se convierte en un pilar indispensable para cualquier productor que aspire a operar bajo estándares internacionales y participar activamente en un mercado exigente, asegurando alimentos seguros y de alta calidad.
 

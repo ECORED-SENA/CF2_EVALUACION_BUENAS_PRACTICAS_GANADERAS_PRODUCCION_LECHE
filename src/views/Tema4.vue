@@ -358,7 +358,7 @@
                   p.mb-0.ms-2
                     | Resolución ICA 067449 de 2020: establece los lineamientos para la certificación en BPG.
 
-              .col-lg-6
+              .col-lg-6.mt-lg-0.mt-4
                 .tarjeta-clip.p-3.h-152.d-flex.align-items-center
                   img.clip-icon(src="@/assets/curso/tema4/clip.svg", alt="Clip")
                   p.mb-0.ms-2
@@ -371,7 +371,7 @@
                   p.mb-0.ms-2
                     | Buenas Prácticas de Manufactura (BPM) y trazabilidad alimentaria.
 
-              .col-lg-6
+              .col-lg-6.mt-lg-0.mt-4
                 .tarjeta-clip.p-3.h-152.d-flex.align-items-center
                   img.clip-icon(src="@/assets/curso/tema4/clip.svg", alt="Clip")
                   p.mb-0.ms-2

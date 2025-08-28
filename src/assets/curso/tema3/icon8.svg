@@ -1,9 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
-  <g id="Grupo_1121587" data-name="Grupo 1121587" transform="translate(-388.051 -12981)">
-    <rect id="Rectángulo_405659" data-name="Rectángulo 405659" width="23" height="23" rx="3" transform="translate(388.051 12981)" fill="#1993fb"/>
-    <g id="Grupo_1121577" data-name="Grupo 1121577" transform="translate(1 -1)">
-      <rect id="Rectángulo_405660" data-name="Rectángulo 405660" width="5" height="14" rx="2" transform="translate(393.051 12987)" fill="#fff"/>
-      <rect id="Rectángulo_405661" data-name="Rectángulo 405661" width="5" height="14" rx="2" transform="translate(400.051 12987)" fill="#fff"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="48" viewBox="0 0 106 48">
+  <g id="Rectángulo_405665" data-name="Rectángulo 405665" fill="none" stroke="#12263f" stroke-width="1">
+    <path d="M0,0H82a24,24,0,0,1,24,24v0A24,24,0,0,1,82,48H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M.5.5H82A23.5,23.5,0,0,1,105.5,24v0A23.5,23.5,0,0,1,82,47.5H.5a0,0,0,0,1,0,0V.5A0,0,0,0,1,.5.5Z" fill="none"/>
   </g>
 </svg>

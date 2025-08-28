@@ -1,21 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="23.337" height="24.896" viewBox="0 0 23.337 24.896">
-  <g id="Grupo_1121585" data-name="Grupo 1121585" transform="translate(-436.958 -12986)">
-    <g id="Grupo_1121584" data-name="Grupo 1121584" transform="translate(436.958 12986)">
-      <g id="Grupo_1121579" data-name="Grupo 1121579" transform="translate(0 0)">
-        <g id="Grupo_1121578" data-name="Grupo 1121578" transform="translate(0)">
-          <path id="Trazado_919809" data-name="Trazado 919809" d="M39.163,5.493,27.859.036a.365.365,0,0,0-.317,0l-11.3,5.457a.365.365,0,0,0-.206.328V19.074a.365.365,0,0,0,.206.328l11.3,5.457a.365.365,0,0,0,.317,0l11.3-5.457a.365.365,0,0,0,.206-.328V5.821A.365.365,0,0,0,39.163,5.493ZM27.7.769,38.165,5.821,35.132,7.286a.362.362,0,0,0-.062-.039L24.676,2.229ZM23.853,2.641,34.3,7.686l-2.14,1.033L21.717,3.677ZM34.547,8.378V12.2l-2,.965V9.343ZM38.64,18.845l-10.574,5.1V11.507l2.522-1.218a.365.365,0,0,0-.317-.657L27.7,10.873l-1.011-.488a.365.365,0,1,0-.317.657l.964.465V23.95l-10.574-5.1V6.4l8.052,3.887a.365.365,0,0,0,.317-.657l-7.9-3.812,3.623-1.749L31.813,9.361l.005.006v4.376a.365.365,0,0,0,.523.328l2.729-1.317a.365.365,0,0,0,.206-.328v-4.4L38.64,6.4V18.845Z" transform="translate(-16.032 0.001)"/>
-        </g>
-      </g>
-      <g id="Grupo_1121581" data-name="Grupo 1121581" transform="translate(1.557 16.594)">
-        <g id="Grupo_1121580" data-name="Grupo 1121580" transform="translate(0)">
-          <path id="Trazado_919810" data-name="Trazado 919810" d="M50.23,342.1l-1.659-.8a.365.365,0,0,0-.317.657l1.659.8a.365.365,0,0,0,.317-.657Z" transform="translate(-48.048 -341.261)"/>
-        </g>
-      </g>
-      <g id="Grupo_1121583" data-name="Grupo 1121583" transform="translate(1.559 14.864)">
-        <g id="Grupo_1121582" data-name="Grupo 1121582" transform="translate(0)">
-          <path id="Trazado_919811" data-name="Trazado 919811" d="M51.8,307.263l-3.183-1.537a.365.365,0,0,0-.317.657l3.183,1.537a.365.365,0,0,0,.317-.657Z" transform="translate(-48.096 -305.69)"/>
-        </g>
-      </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="106.5" height="55.5" viewBox="0 0 106.5 55.5">
+  <g id="Grupo_1121589" data-name="Grupo 1121589" transform="translate(-383.051 -13556)">
+    <g id="Rectángulo_405668" data-name="Rectángulo 405668" transform="translate(383.051 13556)" fill="none" stroke="#12263f" stroke-width="1">
+      <rect width="106" height="55" stroke="none"/>
+      <rect x="0.5" y="0.5" width="105" height="54" fill="none"/>
     </g>
+    <line id="Línea_577" data-name="Línea 577" x2="106" transform="translate(383.551 13569.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <line id="Línea_578" data-name="Línea 578" y2="55" transform="translate(394.551 13556.5)" fill="none" stroke="#12263f" stroke-width="1"/>
   </g>
 </svg>

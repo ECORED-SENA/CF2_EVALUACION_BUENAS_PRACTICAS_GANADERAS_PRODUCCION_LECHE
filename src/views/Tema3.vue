@@ -143,7 +143,28 @@
                     p
                       b Según quien evalúa	
 
-                    p #[b Autoevaluación:] realizada por el propio equipo como ejercicio de aprendizaje y mejora interna. #[b Evaluación participativa:] involucra activamente al equipo de implementación. #[b Evaluación participativa rápida:] recopila percepciones cualitativas en corto tiempo. #[b Evaluación externa:] efectuada por personas o entidades independientes. #[b Evaluación interactiva:] combina participación activa del evaluador externo y los actores del plan.
+                    ul.lista-ul--color
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0  #[b Autoevaluación:] realizada por el propio equipo como ejercicio de aprendizaje y mejora interna.
+
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Evaluación participativa:] involucra activamente al equipo de implementación.
+
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Evaluación participativa rápida:] recopila percepciones cualitativas en corto tiempo.
+
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Evaluación externa:] efectuada por personas o entidades independientes.
+
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Evaluación interactiva:] combina participación activa del evaluador externo y los actores del plan.
+
+                        
 
                   .col-md-5
                     figure
@@ -154,7 +175,19 @@
                     p
                       b Según la etapa del proyecto	
 
-                    p #[b Inicial:] analiza la viabilidad del plan antes de implementarlo. #[b Intermedia:] se aplica durante la ejecución para realizar ajustes. #[b Final:] evalúa resultados e impacto una vez concluido el plan.
+
+                    ul.lista-ul--color
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Inicial:] analiza la viabilidad del plan antes de implementarlo.
+ 
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Intermedia:] se aplica durante la ejecución para realizar ajustes.
+
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Final:] evalúa resultados e impacto una vez concluido el plan.                    
 
                   .col-md-5
                     figure
@@ -165,7 +198,19 @@
                     p
                       b Según su función	
 
-                    p #[b Formativa:] busca mejorar el proceso durante su desarrollo. #[b Sumativa:] mide el logro de resultados al finalizar el proyecto. #[b Evaluación de impacto:] analiza efectos a mediano plazo después de la intervención.
+                    ul.lista-ul--color
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Formativa:] busca mejorar el proceso durante su desarrollo.
+
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Sumativa:] mide el logro de resultados al finalizar el proyecto.
+
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Evaluación de impacto:] analiza efectos a mediano plazo después de la intervención.
+                       
 
                   .col-md-5
                     figure
@@ -176,7 +221,16 @@
                     p
                       b Según el tipo de análisis e instrumentos	
 
-                    p #[b Cuantitativa:] basada en datos numéricos recolectados mediante encuestas y análisis estructurado. #[b Cualitativa:] analiza información no numérica como entrevistas, observaciones e imágenes.
+                    ul.lista-ul--color
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Cuantitativa:] basada en datos numéricos recolectados mediante encuestas y análisis estructurado.
+
+                      li.d-flex.align-items-start
+                        span.lista-ul__vineta
+                        p.mb-0 #[b Cualitativa:] analiza información no numérica como entrevistas, observaciones e imágenes.
+
+                      
 
                   .col-md-5
                     figure
@@ -335,7 +389,7 @@
             .p-4.w-100.align-items-center
 
               .row.align-items-center.justify-content-center
-                .col-lg-4
+                .col-lg-4.col-md-7
                   .row.mt-4.r8.bg-8.p-3.align-items-center.g-2
                     .col-lg-4.d-lg-block.d-none
                       figure
@@ -343,7 +397,7 @@
                     .col-lg-8
                       p Sanidad animal.
 
-                .col-lg-4
+                .col-lg-4.col-md-7
                   .row.mt-4.r8.bg-8.p-3.align-items-center.g-2
                     .col-lg-4.d-lg-block.d-none
                       figure
@@ -351,7 +405,7 @@
                     .col-lg-8
                       p Bienestar animal.
 
-                .col-lg-4
+                .col-lg-4.col-md-7
                   .row.mt-4.r8.bg-8.p-3.align-items-center.g-2
                     .col-lg-4.d-lg-block.d-none
                       figure
@@ -359,8 +413,8 @@
                     .col-lg-8
                       p Inocuidad de la leche.
 
-              .row.align-items-center
-                .col-lg-4
+              .row.align-items-center.justify-content-center
+                .col-lg-4.col-md-7
                   .row.mt-4.r8.bg-8.p-3.align-items-center.g-2
                     .col-lg-4.d-lg-block.d-none
                       figure
@@ -368,7 +422,7 @@
                     .col-lg-8
                       p Bioseguridad.
 
-                .col-lg-4
+                .col-lg-4.col-md-7
                   .row.mt-4.r8.bg-8.p-3.align-items-center.g-2
                     .col-lg-4.d-lg-block.d-none
                       figure
@@ -376,7 +430,7 @@
                     .col-lg-8
                       p Trazabilidad.
 
-                .col-lg-4
+                .col-lg-4.col-md-7
                   .row.mt-4.r8.bg-8.p-3.align-items-center.g-2
                     .col-lg-4.d-lg-block.d-none
                       figure
@@ -384,8 +438,8 @@
                     .col-lg-8
                       p Manejo ambiental.
 
-              .row.align-items-center
-                .col-lg-4
+              .row.align-items-center.justify-content-center
+                .col-lg-4.col-md-7
                   .row.mt-4.r8.bg-8.p-3.align-items-center.g-2
                     .col-lg-4.d-lg-block.d-none
                       figure
@@ -393,7 +447,7 @@
                     .col-lg-8
                       p Gestión documental.
 
-                .col-lg-4
+                .col-lg-4.col-md-7
                   .row.mt-4.r8.bg-8.p-3.align-items-center.g-2
                     .col-lg-4.d-lg-block.d-none
                       figure
@@ -649,14 +703,14 @@
             .col-lg-4
               .card2.border-0.rounded-4.overflow-hidden(style="background-color:#FFFFFF")
                 img(src='@/assets/curso/tema3/img31.png', alt='', class="card-img-top", style="height: 191px; object-fit: cover;")
-                .card2-body.text-center.mt-4(style="height:176px")
+                .card2-body.text-center.mt-4.p-lg-0.p-3(style="height:176px")
                   p.fw-bold.mb-1 Crítico
                   p.mb-0 Afecta directamente la inocuidad o seguridad del producto. Suspende el proceso. Requiere corrección inmediata.
 
             .col-lg-4
               .card2.border-0.rounded-4.overflow-hidden(style="background-color:#FFFFFF")
                 img(src='@/assets/curso/tema3/img32.png', alt='', class="card-img-top", style="height: 191px; object-fit: cover;")
-                .card2-body.text-center.mt-4(style="height:176px")
+                .card2-body.text-center.mt-4.p-lg-0.p-3(style="height:176px")
                   p.fw-bold.mb-1 Mayor
 
                   p.mb-0 No afecta directamente la inocuidad, pero compromete el sistema general. Debe corregirse antes de continuar.
@@ -664,7 +718,7 @@
             .col-lg-4
               .card2.border-0.rounded-4.overflow-hidden(style="background-color:#FFFFFF")
                 img(src='@/assets/curso/tema3/img33.png', alt='', class="card-img-top", style="height: 191px; object-fit: cover;")
-                .card2-body.text-center.mt-4(style="height:176px")
+                .card2-body.text-center.mt-4.p-lg-0.p-3(style="height:176px")
                   p.fw-bold.mb-1 Menor
 
                   p.mb-0 No representa riesgo, pero requiere ajuste. Observación técnica. No impide certificación.
@@ -1025,7 +1079,8 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon1.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon1.svg", alt="", style="width: 89px").m-auto
+                    p.text-center.mt-1 Óvalo 
                 td.text-center Terminal
 
                 td.text-start Inicio o fin del proceso (ej. Inicio del ordeño).
@@ -1033,7 +1088,8 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon2.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon2.svg", alt="", style="width: 60px").m-auto
+                    P.text-center Rombo 
                 td.text-center Decisión
 
                 td.text-start Punto que determina el flujo según respuesta (ej. ¿El tanque está limpio?).
@@ -1041,7 +1097,8 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon3.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon3.svg", alt="", style="width: 106px").m-auto
+                    p.text-center.mt-1 Rectángulo 
                 td.text-center Actividad
 
                 td.text-start Describe acciones concretas con verbos activos (ej. Realizar pre-sellado).
@@ -1049,7 +1106,8 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon4.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon4.svg", alt="", style="width: 41px").m-auto
+                    p.text-center.mt-1 Flecha 
                 td.text-center Dirección de flujo
 
                 td.text-start Muestra la secuencia entre actividades.
@@ -1058,6 +1116,7 @@
                 td.text-start 
                   figure
                     img(src="@/assets/curso/tema3/icon5.svg", alt="", style="width: 20px").m-auto
+                    p.text-center.mt-1 Pequeño círculo de conexión 
                 td.text-center Conector
 
                 td.text-start Une símbolos en el mismo diagrama (cuando hay poco espacio).
@@ -1065,7 +1124,8 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon6.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon6.svg", alt="", style="width: 119px").m-auto
+                    p.text-center.mt-1 Paralelogramo 
                 td.text-center Movimiento
 
                 td.text-start Traslado físico de productos o insumos (ej. Transportar leche al tanque).
@@ -1073,7 +1133,8 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon7.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon7.svg", alt="", style="width: 106px").m-auto
+                    p.text-center.mt-1 Rectángulo ondulado
                 td.text-center Documentación
 
                 td.text-start Representa documentos o registros (ej. Formato de temperatura).
@@ -1081,7 +1142,8 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon8.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon8.svg", alt="", style="width: 106px").m-auto
+                    p.text-center.mt-1 Semicírculo abierto 
                 td.text-center Retardo
 
                 td.text-start Indica pausa por logística (ej. Espera por análisis).
@@ -1089,7 +1151,8 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon9.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon9.svg", alt="", style="width: 106px").m-auto
+                    p.text-center.mt-1 Rectángulo con doble línea vertical 
                 td.text-center Almacenaje/guardado
 
                 td.text-start Señala almacenamiento de leche, insumos, registros, etc.
@@ -1097,7 +1160,8 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon10.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon10.svg", alt="", style="width: 76px").m-auto
+                    p.text-center.mt-1 Rectángulo  con borde lateral abierto 
                 td.text-center Anotación
 
                 td.text-start Aclara actividades sin alterar el flujo (ej. Usar guantes esterilizados).
@@ -1105,7 +1169,8 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon11.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon11.svg", alt="", style="width: 57px").m-auto
+                    p.text-center.mt-1 Pentágono invertido
                 td.text-center Salto de página
                 td.text-start Conexión entre hojas cuando el diagrama es extenso.
 

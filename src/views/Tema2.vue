@@ -275,62 +275,62 @@
 
     .row.align-items-center.justify-content-center
       .col-lg-4
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4(style="height:183px")
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.align-items-center.tim
           .row.align-items-center
-            .col-lg-4.d-lg-block.d-none
+            .col-4
               figure
                 img(src="@/assets/curso/tema2/img20.svg", alt="", style="width: 61px").m-auto
-            .col-lg-8
+            .col-8
               p.mb-0
                 b Manuales de funciones y organigrama
               p Deben estar actualizados, completos y disponibles.
 
       .col-lg-4.mt-lg-0.mt-3
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4(style="height:183px")
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.align-items-center.tim
           .row.align-items-center
-            .col-lg-4.d-lg-block.d-none
+            .col-4
               figure
                 img(src="@/assets/curso/tema2/img21.svg", alt="", style="width: 61px").m-auto
-            .col-lg-8
+            .col-8
               p.mb-0
                 b Capacitación documentada	
               p Debe haber registros firmados que evidencien la formación continua del personal.
 
       .col-lg-4.mt-lg-0.mt-3
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4(style="height:183px")
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.align-items-center.tim
           .row.align-items-center
-            .col-lg-4.d-lg-block.d-none
+            .col-4
               figure
                 img(src="@/assets/curso/tema2/img22.svg", alt="", style="width: 61px").m-auto
-            .col-lg-8
+            .col-8
               p.mb-0
                 b Protocolos aplicados	
               p Se verifica que el personal conozca y cumpla las instrucciones operativas.
 
     .row.align-items-center.justify-content-center.mt-3
       .col-lg-4
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4(style="height:183px")
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.align-items-center.tim
           .row.align-items-center
-            .col-lg-4.d-lg-block.d-none
+            .col-4
               figure
                 img(src="@/assets/curso/tema2/img23.svg", alt="", style="width: 61px").m-auto
-            .col-lg-8
+            .col-8
               p.mb-0
                 b Registros de actividades	
               p Deben estar firmados y fechados.
 
       .col-lg-4.mt-lg-0.mt-3
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4(style="height:183px")
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.align-items-center.tim
           .row.align-items-center
-            .col-lg-4.d-lg-block.d-none
+            .col-4
               figure
                 img(src="@/assets/curso/tema2/img24.svg", alt="", style="width: 61px").m-auto
-            .col-lg-8
+            .col-8
               p.mb-0
                 b Conciencia sanitaria		
               p El personal debe conocer los riesgos y aplicar medidas preventivas.
 
-      .col-lg-4.mt-lg-0.mt-3
+      .col-lg-4.mt-lg-0.mt-3.d-lg-block.d-none
         .tarjeta--boton.color-acento-contenido.text-white--hover(style="height:183px")
           .row.align-items-center
             .col-lg-12
@@ -432,7 +432,7 @@
             p.text-white Lo invitamos a escuchar el siguiente pódcast:
 
             TarjetaAudio.color-acento-contenido.mb-3.bg-9.p-3(
-              texto="Seguimiento de Buenas Prácticas Ganaderas (BPG) en la producción de leche bovina "
+              texto="Evaluación de Buenas Prácticas Ganaderas en la produccion de leche"
               :audio="require('@/assets/componentes/audios/audio1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
