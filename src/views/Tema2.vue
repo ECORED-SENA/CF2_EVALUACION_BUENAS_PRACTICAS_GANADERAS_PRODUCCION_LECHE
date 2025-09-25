@@ -23,63 +23,62 @@
 
     p Los predios que aspiran a certificarse en BPG deben implementar herramientas que aseguren el manejo técnico y documentado del talento humano.
 
-    .row.align-items-center
-      .col-lg-6
-        .row.justify-content-center
-          .col-lg-12(data-aos="fade-down")
-            .row.d-flex.align-items-stretch.bg-17.r8.gx-1
-              .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema2/img2.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
-    
-              .col-lg.d-flex
-                .p-4.w-100.align-items-center
-                  p.mb-0 #[b Manual de funciones] 
-                  p Define responsabilidades, actividades y perfil requerido para cada cargo operativo y técnico.
-
-      .col-lg-6.mt-lg-0.mt-3
-        .row.justify-content-center
-          .col-lg-12(data-aos="fade-down")
-            .row.d-flex.align-items-stretch.bg-17.r8.gx-1
-              .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema2/img3.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
-    
-              .col-lg.d-flex
-                .p-4.w-100.align-items-center
-                  p.mb-0 #[b Registros de personal] 
-                  p Incluyen datos de identificación, fecha de ingreso, cargo, certificados de capacitación y evaluaciones de desempeño.
-
-    .row.align-items-center.mt-3
-      .col-lg-6
-        .row.justify-content-center
-          .col-lg-12(data-aos="fade-down")
-            .row.d-flex.align-items-stretch.bg-17.r8.gx-1
-              .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema2/img4.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
-    
-              .col-lg.d-flex
-                .p-4.w-100.align-items-center
-                  p.mb-0 #[b Protocolos operativos] 
-                  p Establecen instrucciones escritas para tareas críticas (ordeño, medicamentos, bioseguridad, limpieza).
-
-      .col-lg-6.mt-lg-0.mt-3
-        .row.justify-content-center
-          .col-lg-12(data-aos="fade-down")
-            .row.d-flex.align-items-stretch.bg-17.r8.gx-1
-              .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
-                  img(src='@/assets/curso/tema2/img5.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
-    
-              .col-lg.d-flex
-                .p-4.w-100.align-items-center
-                  p.mb-0 #[b Evidencias de capacitación	] 
-                  p Documentan la participación del personal en actividades formativas sobre BPG, trazabilidad, sanidad y sostenibilidad.
-
     .row.bg-20
       .col-12 
-        .p-5
+        .px-5
+          .row.align-items-center
+            .col-lg-6
+              .row.justify-content-center
+                .col-lg-12(data-aos="fade-down")
+                  .row.d-flex.align-items-stretch.bg-17.r8.gx-1
+                    .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                      figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
+                        img(src='@/assets/curso/tema2/img2.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
+          
+                    .col-lg.d-flex
+                      .p-4.w-100.align-items-center
+                        p.mb-0 #[b Manual de funciones] 
+                        p Define responsabilidades, actividades y perfil requerido para cada cargo operativo y técnico.
+
+            .col-lg-6.mt-lg-0.mt-3
+              .row.justify-content-center
+                .col-lg-12(data-aos="fade-down")
+                  .row.d-flex.align-items-stretch.bg-17.r8.gx-1
+                    .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                      figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
+                        img(src='@/assets/curso/tema2/img3.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
+          
+                    .col-lg.d-flex
+                      .p-4.w-100.align-items-center
+                        p.mb-0 #[b Registros de personal] 
+                        p Incluyen datos de identificación, fecha de ingreso, cargo, certificados de capacitación y evaluaciones de desempeño.
+
+          .row.align-items-center.mt-3
+            .col-lg-6
+              .row.justify-content-center
+                .col-lg-12(data-aos="fade-down")
+                  .row.d-flex.align-items-stretch.bg-17.r8.gx-1
+                    .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                      figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
+                        img(src='@/assets/curso/tema2/img4.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
+          
+                    .col-lg.d-flex
+                      .p-4.w-100.align-items-center
+                        p.mb-0 #[b Protocolos operativos] 
+                        p Establecen instrucciones escritas para tareas críticas (ordeño, medicamentos, bioseguridad, limpieza).
+
+            .col-lg-6.mt-lg-0.mt-3
+              .row.justify-content-center
+                .col-lg-12(data-aos="fade-down")
+                  .row.d-flex.align-items-stretch.bg-17.r8.gx-1
+                    .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                      figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
+                        img(src='@/assets/curso/tema2/img5.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left:-10px")
+          
+                    .col-lg.d-flex
+                      .p-4.w-100.align-items-center
+                        p.mb-0 #[b Evidencias de capacitación	] 
+                        p Documentan la participación del personal en actividades formativas sobre BPG, trazabilidad, sanidad y sostenibilidad.
           separador
           #t_2_2.titulo-segundo.color-acento-contenido
             h2 2.2 Capacitación del personal
@@ -87,7 +86,7 @@
           p La #[b formación continua] es un eje central en el sistema BPG. Permite asegurar que todo el equipo esté preparado para aplicar correctamente los procedimientos y cumplir con las normativas vigentes (Resoluciones ICA 067449 de 2020 y 000017 de 2023).
 
           .carousel-bg
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-12
                 SlyderF.custom.mb-5(columnas="col-lg-4 col-md-6 col-xl-4")
                   .tarjeta.tarjeta--slyder.p-5
@@ -133,7 +132,7 @@
 
     .row.bg-21.m-neg
       .col-12
-        .p-5
+        .px-5.pb-5
           separador
           #t_2_3.titulo-segundo.color-acento-contenido
             h2 2.3 Asignación de funciones
@@ -265,7 +264,7 @@
                       img(src='@/assets/curso/tema2/img19.png', alt='')
 
 
-    p.mt-4 Este proceso permite detectar oportunidades de mejora en la gestión del talento humano y evidencia la existencia de un sistema organizativo sólido.
+    p.mt-5.mb-0 Este proceso permite detectar oportunidades de mejora en la gestión del talento humano y evidencia la existencia de un sistema organizativo sólido.
 
     separador
     #t_2_5.titulo-segundo.color-acento-contenido

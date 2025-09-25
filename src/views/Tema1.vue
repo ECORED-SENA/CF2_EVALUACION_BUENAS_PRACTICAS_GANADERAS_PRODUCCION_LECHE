@@ -102,7 +102,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Elementos para su desarrollo
 
-    p Un sistema de trazabilidad eficaz en predios lecheros requiere una estructura organizada, basada en registros confiables, protocolos definidos y tecnologías adecuadas para el seguimiento de la información. A continuación se describen los principales elementos que permiten su implementación:
+    p Un sistema de trazabilidad eficaz en predios lecheros requiere una estructura organizada, basada en registros confiables, protocolos definidos y tecnologías adecuadas para el seguimiento de la información. A continuación, se describen los principales elementos que permiten su implementación:
 
     .row.mt-4.align-items-center
       .col-lg-3.d-lg-block.d-none
@@ -256,7 +256,7 @@
     .row.mt-2
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/QCTS9rfE_Uo?si=sIgI_2Zok3-9nNY7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/4Et05gufShQ?si=mVGCssswDvX2wiN2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     .row.align-items-center.justify-content-center
@@ -270,7 +270,7 @@
 
     .row.bg-13
       .col-12
-        .p-5
+        .px-5
           separador
           #t_1_3.titulo-segundo.color-acento-contenido
             h2 1.3  Trazabilidad individual y por lotes
@@ -304,12 +304,12 @@
                         p.mb-0 #[b Por lotes] 
                         p Agrupación de animales o productos que comparten características comunes (raza, edad, lote sanitario, etc.).
 
-          .row.mt-4.justify-content-center
+          .row.mb-4.justify-content-center
             .col-lg-10
               p.p-4.bg-8.r8 La trazabilidad cumple un papel central en el #[b aseguramiento de la calidad e inocuidad de los alimentos], así como en #[b la sanidad animal y la salud pública]. Es uno de los conceptos fundamentales tanto en el #[b Código] Sanitario como en el #[i Codex Alimentarius].
 
 
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10(data-aos="fade-down")
               .row.d-flex.align-items-stretch.bg-5
                 .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
@@ -330,8 +330,7 @@
                         p.mb-0.m-l10 La #[b inscripción del predio] productivo. El #[b registro y seguimiento del transporte] mediante #[b guías de movilización], que permiten rastrear a los animales desde su nacimiento hasta el final de su vida productiva.
 
 
-              p.mt-4 Además, productos de origen animal como la leche y sus derivados cuentan con elementos específicos que aseguran la trazabilidad desde la granja hasta las plantas de transformación. Entre estos, destacan #[b bases de datos] que promueven la calidad e inocuidad, facilitando la trazabilidad y el control de los procesos involucrados.
-
+              p.mt-4.mb-0 Además, productos de origen animal como la leche y sus derivados cuentan con elementos específicos que aseguran la trazabilidad desde la granja hasta las plantas de transformación. Entre estos, destacan #[b bases de datos] que promueven la calidad e inocuidad, facilitando la trazabilidad y el control de los procesos involucrados.
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -415,7 +414,7 @@
                     .col-lg-8
                       p Información sobre genética y reproducción.
 
-    p.mt-4 Estos datos contribuyen a #[b mejorar la toma de decisiones, optimizar los sistemas productivos y tecnificar la actividad ganadera], consolidando la trazabilidad como una herramienta estratégica e integral para el desarrollo sostenible del sector.
+    p.mt-4.mb-0 Estos datos contribuyen a #[b mejorar la toma de decisiones, optimizar los sistemas productivos y tecnificar la actividad ganadera], consolidando la trazabilidad como una herramienta estratégica e integral para el desarrollo sostenible del sector.
 
 
     separador
@@ -460,7 +459,7 @@
 
     .row.bg-15
       .col-12
-        .p-5 
+        .px-5 
           separador
           #t_1_7.titulo-segundo.color-acento-contenido
             h2 1.7 Aplicación en predios lecheros
