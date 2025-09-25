@@ -7,7 +7,7 @@
         span 3
       h1 Evaluación de Buenas Prácticas Ganaderas (BPG) en producción de leche bovina
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-9(data-aos="fade-down")
         p La evaluación de las Buenas Prácticas Ganaderas (BPG) es un proceso técnico, sistemático y normativo, mediante el cual el Instituto Colombiano Agropecuario (ICA) o una entidad autorizada verifica el cumplimiento de criterios sanitarios, productivos, ambientales, administrativos y de inocuidad en predios dedicados a la producción de leche bovina. Esta evaluación permite:
         .row.d-flex.align-items-stretch.bg-2.text-white
@@ -56,40 +56,40 @@
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Objetivo de la evaluación
 
-    p El objetivo principal de la evaluación BPG es asegurar que la producción de leche se realice bajo #[b condiciones higiénicas, seguras, sostenibles y trazables], promoviendo:
+    p.mb-4 El objetivo principal de la evaluación BPG es asegurar que la producción de leche se realice bajo #[b condiciones higiénicas, seguras, sostenibles y trazables], promoviendo:
 
-    .row.align-items-center.mt-5.justify-content-center     
+    .row.align-items-center.justify-content-center.mb-4
       .col-lg-4
         .row.bg-24.r8.align-items-center
           .col-lg-12
+            .p-4
+              ul.lista-ul--color.mb-0
+                li.d-flex.align-items-start.p-1.bg-12.r8
+                  span.icono-img
+                  p.mb-0 La inocuidad alimentaria.
 
-            ul.lista-ul--color.mt-2.p-3
-              li.d-flex.align-items-start.p-1.bg-12.r8
-                span.icono-img
-                p.mb-0 La inocuidad alimentaria.
-
-              li.d-flex.align-items-start.p-1.bg-12.r8
-                span.icono-img
-                p.mb-0 El bienestar animal.
-
-
-              li.d-flex.align-items-start.p-1.bg-12.r8
-                span.icono-img
-                p.mb-0 La salud pública.
+                li.d-flex.align-items-start.p-1.bg-12.r8
+                  span.icono-img
+                  p.mb-0 El bienestar animal.
 
 
-              li.d-flex.align-items-start.p-1.bg-12.r8
-                span.icono-img
-                p.mb-0 El cumplimiento normativo.
+                li.d-flex.align-items-start.p-1.bg-12.r8
+                  span.icono-img
+                  p.mb-0 La salud pública.
+
+
+                li.d-flex.align-items-start.p-1.bg-12.r8
+                  span.icono-img
+                  p.mb-0 El cumplimiento normativo.
 
 
       .col-lg-5.d-lg-block.d-none
         figure
           img(src='@/assets/curso/tema3/img4.png', alt='', style="width: 505px").m-auto
 
-    p.mt-4 La evaluación implica el análisis sistemático de todo el plan de implementación, considerando:
+    p.mb-4 La evaluación implica el análisis sistemático de todo el plan de implementación, considerando:
 
-    .row.align-items-center.mt-5.justify-content-center     
+    .row.align-items-center.justify-content-center     
       .col-lg-4
         .row.bg-5.r8.align-items-center
           .col-lg-12
@@ -304,7 +304,7 @@
 
     .row.bg-4
       .col-12
-        .p-5
+        .px-5.pb-0.pb-lg-5
           .row.align-items-center
             .col-lg-8
               .row.align-items-center
@@ -315,26 +315,25 @@
                   p La #[b metodología para el seguimiento y evaluación] de programas, planes y proyectos de Buenas Prácticas Ganaderas (BPG) se basa en un marco referencial normativo y técnico. Este marco permite recolectar, organizar e interpretar la información de forma #[b coherente, eficiente, efectiva y oportuna], mediante el uso de formatos oficiales, registros, listas de chequeo y documentos soporte.
 
               .row.mt-1.p-4.bg-11.r8 
-                p El proceso exige la consulta y aplicación de #[b procedimientos, guías, manuales operativos y normativas técnicas], los cuales facilitan la ejecución sistemática de las tareas de seguimiento y evaluación. Desde el enfoque técnico, la evaluación implica:
+                .col-12
+                  p El proceso exige la consulta y aplicación de #[b procedimientos, guías, manuales operativos y normativas técnicas], los cuales facilitan la ejecución sistemática de las tareas de seguimiento y evaluación. Desde el enfoque técnico, la evaluación implica:
 
-                .row.p-4.bg-6.r8.justify-content-center
-                  .col-lg-11
-                    ul.lista-ul--color
-                      li.d-flex.align-items-start
-                        span.icono-img
-                        p.mb-0  Confrontar información recolectada con los estándares exigidos.
+                  .row.justify-content-center
+                    .col-10.bg-6.p-4.rounded
+                      ul.lista-ul--color
+                        li.d-flex.align-items-start
+                          span.icono-img
+                          p.mb-0  Confrontar información recolectada con los estándares exigidos.
 
+                        li.d-flex.align-items-start
+                          span.icono-img
+                          p.mb-0 Aplicar metodologías provenientes de diversas disciplinas (investigación, medición, análisis comparativo).
 
-                      li.d-flex.align-items-start
-                        span.icono-img
-                        p.mb-0 Aplicar metodologías provenientes de diversas disciplinas (investigación, medición, análisis comparativo).
+                        li.d-flex.align-items-start
+                          span.icono-img
+                          p.mb-0 Utilizar instrumentos y variables que pueden variar según el tipo de evaluación, el contexto y los objetivos definidos.
 
-                      li.d-flex.align-items-start
-                        span.icono-img
-                        p.mb-0 Utilizar instrumentos y variables que pueden variar según el tipo de evaluación, el contexto y los objetivos definidos.
-
-
-                p.mt-2 Pese a la diversidad metodológica, la evaluación de BPG – Leche sigue una secuencia normativa estandarizada.
+                  p.mt-2 Pese a la diversidad metodológica, la evaluación de BPG – Leche sigue una secuencia normativa estandarizada.
 
             .col-lg-4.d-lg-block.d-none
               figure
@@ -521,7 +520,7 @@
       .col-lg-6
         .row.bg-14.r8.align-items-center.p-2
 
-            p Se invita a leer el documento , donde se aborda el conjunto de estándares técnicos y normativos que deben cumplir los predios dedicados a la producción de leche para consumo humano. 
+            p Se invita a leer el documento, donde se aborda el conjunto de estándares técnicos y normativos que deben cumplir los predios dedicados a la producción de leche para consumo humano. 
 
             .row
               .col-lg-11
@@ -577,18 +576,18 @@
 
     .row.bg-16
       .col-12
-        .p-5 
+        .px-5 
           .titulo-tres.mt-5: h3 Instrumentos oficiales de evaluación
 
           p.mt-4  El #[b Formulario ICA 3-852 v6] es la herramienta oficial empleada por el ICA durante auditorías de certificación. Evalúa más de 90 ítems distribuidos en ocho módulos temáticos.
 
           .carousel-bg
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-4.d-none.d-lg-block
                 figure(data-aos="zoom-in")
-                  img(src="@/assets/curso/tema3/img21.png", style="height: 405px").m-auto
+                  img(src="@/assets/curso/tema3/img21.png", style="height: 430px").m-auto
               .col-lg-8
-                SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-6")
+                SlyderF.custom(columnas="col-lg-6 col-md-6 col-xl-6")
                   .tarjeta.tarjeta--slyder.p-5
                     .row.justify-content-center.mb-3
                       .col-8
@@ -653,11 +652,10 @@
                     p.text-center
                       b Documentación
                     p.text-center.mb-0 Registros técnicos, trazabilidad, protocolos, controles y validaciones.
-                  
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10(data-aos="fade-down")
-        p Otros documentos requeridos para la auditoría:
+        p.mb-5 Otros documentos requeridos para la auditoría:
         .row.d-flex.align-items-strech.bg-5
           .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
             figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
@@ -688,13 +686,9 @@
                   span.icono-img
                   p.mb-0 Registro de medicamentos con tiempos de retiro.
 
-      
-
-    
-
     .row.bg-22.m-neg
       .col-12
-        .p-5
+        .px-5
           .titulo-tres.mt-5: h3 Clasificación de hallazgos
 
           p.mt-4 Los hallazgos identificados durante la auditoría se tipifican de acuerdo con su #[b gravedad e impacto sanitario o normativo:]
@@ -731,7 +725,7 @@
           h5 Tabla 3.
           span Clasificación de hallazgos en auditoría BPG
 
-        .table-responsive.tabla-compacta 
+        .table-responsive.tabla-compacta.mb-5
           table
             thead(style="background-color: #CCDA2D")
               tr
@@ -762,32 +756,32 @@
     .tarjeta--container.row.mb-5.mt-4
       .col-md.tarjeta.bg-5.p-5
         .row.mb-4
-          .col-6
+          .col-12
             .row.align-items-center
-              .col-lg-4
+              .col-auto
                 figure
                   img(src="@/assets/curso/tema3/img35.svg", alt="", style="width: 77px")
-              .col-lg-8
-                h4.text-center Certificación BPG – Leche
+              .col
+                h4.mb-0 Certificación BPG - Leche
 
         p El predio cumple con todos los ítems críticos, ha corregido los hallazgos menores y presenta evidencia verificable del cumplimiento.
 
       .col-md.tarjeta.bg-9.p-5
         .row.mb-4
-          .col-6
+          .col-12
             .row.align-items-center
-              .col-lg-4
+              .col-auto
                 figure
                   img(src="@/assets/curso/tema3/img36.svg", alt="", style="width: 77px")
-              .col-lg-8
-                h4.text-center No certificación
+              .col
+                h4.mb-0 No certificación
 
         p Se identifican hallazgos críticos o existen incumplimientos que no han sido subsanados dentro del plazo establecido.
 
 
-    p.mt-4 Este resultado orienta las decisiones del productor y las acciones necesarias para garantizar la calidad, sanidad y trazabilidad del sistema productivo.
+    p.mt-4.mb-4 Este resultado orienta las decisiones del productor y las acciones necesarias para garantizar la calidad, sanidad y trazabilidad del sistema productivo.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10(data-aos="fade-down")
         .row.d-flex.align-items-stretch.bg-10
           .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
@@ -891,7 +885,7 @@
     .row.mt-4.align-items-center
       .col-lg-8
         p Para elegir la metodología, el procedimiento, la técnica y el instrumento adecuados para el seguimiento y evaluación de un plan o proyecto, es esencial tener en cuenta:
-        .row.align-items-center
+        .row.align-items-center.mb-4
           .col-lg-5.d-lg-block.d-none
             figure
               img(src='@/assets/curso/tema3/img41.png', alt='', style="width: 295px").m-auto
@@ -1079,7 +1073,7 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon1.svg", alt="", style="width: 89px").m-auto
+                    img(src="@/assets/curso/tema3/icon1.svg", alt="Óvalo", style="width: 89px").m-auto
                     p.text-center.mt-1 Óvalo 
                 td.text-center Terminal
 
@@ -1088,7 +1082,7 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon2.svg", alt="", style="width: 60px").m-auto
+                    img(src="@/assets/curso/tema3/icon2.svg", alt="Rombo", style="width: 60px").m-auto
                     P.text-center Rombo 
                 td.text-center Decisión
 
@@ -1097,7 +1091,7 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon3.svg", alt="", style="width: 106px").m-auto
+                    img(src="@/assets/curso/tema3/icon3.svg", alt="Rectángulo", style="width: 106px").m-auto
                     p.text-center.mt-1 Rectángulo 
                 td.text-center Actividad
 
@@ -1106,7 +1100,7 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon4.svg", alt="", style="width: 41px").m-auto
+                    img(src="@/assets/curso/tema3/icon4.svg", alt="Flecha", style="width: 41px").m-auto
                     p.text-center.mt-1 Flecha 
                 td.text-center Dirección de flujo
 
@@ -1115,7 +1109,7 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon5.svg", alt="", style="width: 20px").m-auto
+                    img(src="@/assets/curso/tema3/icon5.svg", alt="Pequeño círculo de conexión", style="width: 20px").m-auto
                     p.text-center.mt-1 Pequeño círculo de conexión 
                 td.text-center Conector
 
@@ -1124,7 +1118,7 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon6.svg", alt="", style="width: 119px").m-auto
+                    img(src="@/assets/curso/tema3/icon6.svg", alt="Paralelogramo", style="width: 119px").m-auto
                     p.text-center.mt-1 Paralelogramo 
                 td.text-center Movimiento
 
@@ -1133,7 +1127,7 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon7.svg", alt="", style="width: 106px").m-auto
+                    img(src="@/assets/curso/tema3/icon7.svg", alt="Rectángulo ondulado", style="width: 106px").m-auto
                     p.text-center.mt-1 Rectángulo ondulado
                 td.text-center Documentación
 
@@ -1142,7 +1136,7 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon8.svg", alt="", style="width: 106px").m-auto
+                    img(src="@/assets/curso/tema3/icon8.svg", alt="Semicírculo abierto ", style="width: 106px").m-auto
                     p.text-center.mt-1 Semicírculo abierto 
                 td.text-center Retardo
 
@@ -1151,7 +1145,7 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon9.svg", alt="", style="width: 106px").m-auto
+                    img(src="@/assets/curso/tema3/icon9.svg", alt="Rectángulo con doble línea vertical ", style="width: 106px").m-auto
                     p.text-center.mt-1 Rectángulo con doble línea vertical 
                 td.text-center Almacenaje/guardado
 
@@ -1160,7 +1154,7 @@
               tr
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon10.svg", alt="", style="width: 76px").m-auto
+                    img(src="@/assets/curso/tema3/icon10.svg", alt="Rectángulo  con borde lateral abierto ", style="width: 76px").m-auto
                     p.text-center.mt-1 Rectángulo  con borde lateral abierto 
                 td.text-center Anotación
 
@@ -1169,7 +1163,7 @@
               tr(style="background-color: #F6F6F6")
                 td.text-start 
                   figure
-                    img(src="@/assets/curso/tema3/icon11.svg", alt="", style="width: 57px").m-auto
+                    img(src="@/assets/curso/tema3/icon11.svg", alt="Pentágono invertido", style="width: 57px").m-auto
                     p.text-center.mt-1 Pentágono invertido
                 td.text-center Salto de página
                 td.text-start Conexión entre hojas cuando el diagrama es extenso.

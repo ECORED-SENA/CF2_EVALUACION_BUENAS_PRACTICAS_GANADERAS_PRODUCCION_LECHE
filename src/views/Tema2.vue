@@ -88,7 +88,7 @@
           .carousel-bg
             .row.justify-content-center.align-items-center
               .col-lg-12
-                SlyderF.custom.mb-5(columnas="col-lg-4 col-md-6 col-xl-4")
+                SlyderF.custom(columnas="col-md-6 col-xl-4")
                   .tarjeta.tarjeta--slyder.p-5
                     .row.justify-content-center.mb-3
                       .col-8

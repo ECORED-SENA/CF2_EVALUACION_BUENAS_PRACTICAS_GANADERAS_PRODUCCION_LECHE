@@ -9,7 +9,7 @@
 
     .row.bg-4
       .col-12
-        .p-5
+        .px-5
           .row.align-items-center
             .col-lg-8
               .row.align-items-center
@@ -28,7 +28,7 @@
           p.mt-4 En este contexto, se reconocen dos tipos principales de trazabilidad:
 
           .row.mt-4.justify-content-center.align-items-stretch
-            .col-lg-5
+            .col-lg-5.mb-4.mb-lg-0
               .row.p-4.bg-6.r8.h-100.g-2.shadow-card
                 figure
                   img(src="@/assets/curso/tema1/img3.svg", alt="", style="width: 83px")
@@ -242,7 +242,7 @@
                 p.mb-0.m-l10 Aplicación de protocolos que garantizan la inocuidad y calidad dentro del predio, antes de la salida del producto al siguiente eslabón de la cadena.
 
 
-    .row.justify-content-center.mt-4
+    .row.justify-content-center.mt-4.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Figura 2. 
@@ -251,9 +251,9 @@
         figure
           img(src='@/assets/curso/tema1/img17.svg', alt=' Esquema sobre la rastreabilidad interna en la producción que muestra el flujo de materias primas provenientes de distintos proveedores hacia un fabricante, donde se transforman en productos intermedios y finales, con registros de aceptación, proceso y envío para asegurar el control interno de la producción. ', style="width: 820px").m-auto
 
-    p.mt-4 La trazabilidad en la producción lechera puede abordarse desde distintos niveles según el alcance del seguimiento requerido. A continuación, se presentan los dos tipos principales, sus aplicaciones y diferencias clave.
+    p.mt-4.mb-5 La trazabilidad en la producción lechera puede abordarse desde distintos niveles según el alcance del seguimiento requerido. A continuación, se presentan los dos tipos principales, sus aplicaciones y diferencias clave.
 
-    .row.mt-2
+    .row.mt-2.mb-5
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/4Et05gufShQ?si=mVGCssswDvX2wiN2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -456,17 +456,18 @@
       .col-lg-10
         p.p-4.bg-8.r8 El uso adecuado de estas plataformas contribuye al cumplimiento normativo, mejora la trazabilidad operativa en campo y respalda procesos de certificación sanitaria y comercial. La incorporación de tecnología digital también permite generar reportes automáticos, análisis de datos y alertas tempranas ante eventos críticos.   
 
+    separador
 
     .row.bg-15
       .col-12
         .px-5 
-          separador
+          
           #t_1_7.titulo-segundo.color-acento-contenido
             h2 1.7 Aplicación en predios lecheros
 
           p La trazabilidad en predios lecheros se implementa como un sistema estructurado de #[b identificación, seguimiento, verificación y documentación] de todas las etapas de la producción, desde el animal hasta la leche cruda entregada. Su implementación es obligatoria para la certificación en #[b Buenas Prácticas Ganaderas (BPG)] y se evalúa en aspectos como:
 
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10(data-aos="fade-down")
               .row.d-flex.align-items-stretch.bg-5
                 .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
@@ -499,25 +500,26 @@
                         span.icono-img
                         p.mb-0.m-l10 Rastreo del producto: transporte, destino de la leche y condiciones de traslado.
 
-              p.mt-4 Durante las auditorías, los verificadores del #[b ICA] revisan estos componentes para determinar el grado de cumplimiento del predio frente a los requisitos establecidos en el #[b Formulario 3-852 v6], instrumento oficial de evaluación.
+              p.mt-4.mb-0 Durante las auditorías, los verificadores del #[b ICA] revisan estos componentes para determinar el grado de cumplimiento del predio frente a los requisitos establecidos en el #[b Formulario 3-852 v6], instrumento oficial de evaluación.
 
+              separador
 
     .row.bg-16
       .col-12
-        .p-5 
-          separador
+        .px-5.pt-0.pt-xl-5
+          
           #t_1_8.titulo-segundo.color-acento-contenido
             h2 1.8  Herramientas y registros asociados
 
           p Para garantizar una trazabilidad efectiva, los predios lecheros deben contar con herramientas técnicas y registros sistematizados que respalden la producción bajo estándares de calidad, inocuidad y legalidad. Entre los principales instrumentos requeridos se encuentran:
 
           .carousel-bg
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-4.d-none.d-lg-block
                 figure(data-aos="zoom-in")
                   img(src="@/assets/curso/tema1/img32.png", style="height: 405px").m-auto
               .col-lg-8
-                SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-6")
+                SlyderF.custom(columnas="col-md-6")
                   .tarjeta.tarjeta--slyder.p-5
                     .row.justify-content-center.mb-3
                       .col-8
@@ -574,9 +576,6 @@
                     p.text-center
                       b Archivo físico o digital	
                     p.text-center.mb-0 Conservación mínima de 12 meses con registros fechados y firmados por el responsable.
-
-
-
 
     p.mt-4 Estos documentos son verificados por el personal auditor para emitir hallazgos, cuya clasificación se detalla a continuación:
 

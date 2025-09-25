@@ -83,8 +83,8 @@
       .col-lg-10
         p.p-4.bg-2.r8.text-white El ICA puede otorgar plazos para la ejecución de dichas acciones, dependiendo del nivel de criticidad del hallazgo. El predio debe documentar todo el proceso y permitir su verificación.
 
-
     separador
+
     #t_4_2.titulo-segundo.color-acento-contenido
       h2 4.2  Aplicación de acciones correctivas y preventivas
 
@@ -153,7 +153,7 @@
     TabsB.color-acento-botones(style="background-color: #E5F2EB")
       .py-4.py-md-5(titulo="Acciones correctivas inmediatas" :icono="require('@/assets/curso/tema4/img4.svg')")
         .row.p-4
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             h4 Acciones correctivas inmediatas
             p Son reactivas y se implementan cuando el problema ya ocurrió. Buscan eliminar la no conformidad de manera urgente para evitar consecuencias mayores.
 
@@ -175,14 +175,13 @@
                 span.icono-img
                 p.mb-0 Retiro inmediato de productos veterinarios vencidos.
         
-          .col-md-6
+          .col-lg-6
             figure
-              img(src='@/assets/curso/tema4/img5.png')
+              img(src='@/assets/curso/tema4/img5.png', style="width: 400px").m-auto
 
       .py-4.py-md-5(titulo="Acciones correctivas preventivas" :icono="require('@/assets/curso/tema4/img4.svg')")
         .row.p-4
-          
-          .col-md-6
+          .col-lg-6
             h4 Acciones correctivas preventivas
             p Son proactivas y se orientan a evitar que ocurran no conformidades en el futuro. Se basan en la evaluación constante del sistema para anticipar fallos.
 
@@ -210,9 +209,9 @@
                 span.icono-img
                 p.mb-0     Actualización de protocolos y registros.
 
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema4/img6.png')
+              img(src='@/assets/curso/tema4/img6.png' style="width: 400px").m-auto
 
     separador
     #t_4_4.titulo-segundo.color-acento-contenido
@@ -391,10 +390,10 @@
         figure
           img(src='@/assets/curso/tema4/img12.png', alt='', style="width: 295px").m-auto
       .col-lg-9
-        p Ejemplos de planes de contingencia:
+        p.mb-4 Ejemplos de planes de contingencia:
 
         .row.align-items-center.justify-content-center
-          .col-lg-6
+          .col-lg-6.mb-4
             .row.r8.bg-25.p-3.align-items-center.g-2
               .col-lg-4.d-lg-block.d-none
                 figure
@@ -402,7 +401,7 @@
               .col-lg-8
                 p Planes para sanidad animal.
 
-          .col-lg-6
+          .col-lg-6.mb-4
             .row.r8.bg-25.p-3.align-items-center.g-2
               .col-lg-4.d-lg-block.d-none
                 figure
@@ -410,10 +409,8 @@
               .col-lg-8
                 p Estrategias para abastecimiento de alimentos.
 
-
-        .row.align-items-center.justify-content-center
-          .col-lg-6
-            .row.mt-4.r8.bg-25.p-3.align-items-center.g-2
+          .col-lg-6.mb-4.mb-lg-0
+            .row.r8.bg-25.p-3.align-items-center.g-2
               .col-lg-4.d-lg-block.d-none
                 figure
                   img(src="@/assets/curso/tema4/img15.svg", alt="", style="width: 61px").m-auto
@@ -421,7 +418,7 @@
                 p Protocolos ante desastres naturales o emergencias ambientales.
 
           .col-lg-6
-            .row.mt-4.r8.bg-25.p-3.align-items-center.g-2
+            .row.r8.bg-25.p-3.align-items-center.g-2
               .col-lg-4.d-lg-block.d-none
                 figure
                   img(src="@/assets/curso/tema4/img16.svg", alt="", style="width: 61px").m-auto
@@ -432,7 +429,7 @@
 
     p.mt-4 Durante la evaluación BPG, se identifican no conformidades específicas en distintas áreas. A continuación, se presentan ejemplos comunes y las acciones correctivas recomendadas para cada caso:
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 6.
@@ -453,26 +450,17 @@
                 td.text-start Sin sombra ni agua
                 td.text-start Instalar bebederos y sombra
 
-
-
-
               tr
                 td.text-start Higiene en ordeño
 
                 td.text-start Falta de protocolo
                 td.text-start Capacitación y elaboración de POES
 
-
-
               tr(style="background-color: #F6F6F6")
                 td.text-start Registro sanitario
 
                 td.text-start No hay registros
                 td.text-start Implementar libros obligatorios
-
-
-
-
 
               tr(style="background-color: #F6F6F6")
                 td.text-start Bioseguridad
@@ -485,27 +473,20 @@
                 td.text-start Disposición incorrecta
                 td.text-start Crear zona de compostaje
 
-
-
-
-          
-
       .col-lg-4.d-lg-block.d-none
         figure
           img(src='@/assets/curso/tema4/img17.png', alt='', style="width: 400px").m-auto
 
-    .row.mt-4.justify-content-center
-      .col-lg-10
-        .row.bg-8.r8.p-2
-          .col-lg-2.d-lg-block.d-none
-            figure
-              img(src="@/assets/curso/tema4/img18.svg", alt="", style="width: 91px").m-auto
+    .row.justify-content-center
+      .col-lg-10.bg-8.rounded
+        .p-4
+          .row.align-items-center
+            .col-lg-auto.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/curso/tema4/img18.svg", alt="", style="width: 91px").m-auto
 
-          .col-lg-10
-            p Las estrategias correctivas son pilares fundamentales en la gestión de predios lecheros certificados en Buenas Prácticas Ganaderas. No solo aseguran el cumplimiento normativo y la mejora continua, sino que también fortalecen la calidad del producto, el bienestar animal y la confianza del consumidor. Además, permiten prevenir sanciones y aumentar la competitividad del sistema lechero colombiano.
-
-
-
+            .col-lg
+              p.mb-0 Las estrategias correctivas son pilares fundamentales en la gestión de predios lecheros certificados en Buenas Prácticas Ganaderas. No solo aseguran el cumplimiento normativo y la mejora continua, sino que también fortalecen la calidad del producto, el bienestar animal y la confianza del consumidor. Además, permiten prevenir sanciones y aumentar la competitividad del sistema lechero colombiano.
 
 </template>
 
