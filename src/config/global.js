@@ -251,7 +251,7 @@ export default {
         'Ministerio de Salud y Protección Social. (2020, 8 de mayo). <em>Resolución 067449 de 2020, por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas (BPG) en la producción de leche</em>. Diario Oficial No. 51342',
       tipo: 'Resolución',
       link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-2674-de-2013.pdf?utm_source=chatgpt.com',
+        'https://www.ica.gov.co/getattachment/6b7f82ab-bccd-4bf5-a5c6-5bfff35b772b/2020R67449.aspx',
     },
     {
       tema: 'Evaluación, normativa y recomendaciones',
